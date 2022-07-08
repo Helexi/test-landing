@@ -1,0 +1,22 @@
+.top-actions-menu__li {
+  list-style: none;
+}
+
+.top-actions-menu__link {
+  text-decoration: none;
+  color: white;
+}
+
+.top-actions-menu {
+  display: flex;
+  flex-direction: row;
+  display: none;
+  width: 420px;
+  justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+  .top-actions-menu {
+    display: flex;
+  }
+}
