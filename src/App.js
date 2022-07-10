@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './reset-css.css'
 import './App.css';
 import { Header } from './components/Header/Header';
-import { UlListBurger } from './components/Header/UlListBurger/UlListBurger';
+import { UlListBurger } from './components/UlListBurger/UlListBurger';
+import { Main } from './components/Main/Main';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -19,7 +20,9 @@ function App() {
   return (
     <>
       <Header showBugreg={showBugreg}/>
-      {show ? <UlListBurger show={show} close={close}/> : null}</>
+      {show ? <UlListBurger show={show} close={close}/> : null}
+      <Main />
+    </>
   );
 }
 
