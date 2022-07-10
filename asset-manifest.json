@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/test-landing/static/css/main.13594919.css",
-    "main.js": "/test-landing/static/js/main.1ab71e74.js",
+    "main.css": "/test-landing/static/css/main.454282a9.css",
+    "main.js": "/test-landing/static/js/main.c0767149.js",
     "static/js/787.5daf3e46.chunk.js": "/test-landing/static/js/787.5daf3e46.chunk.js",
     "static/media/buckground-size-max.jpg": "/test-landing/static/media/buckground-size-max.e3412b1811dc81759e59.jpg",
+    "static/media/BG.jpg": "/test-landing/static/media/BG.157eca943b50e9358220.jpg",
     "static/media/ill.jpg": "/test-landing/static/media/ill.b7e1dad2309b976f0273.jpg",
     "index.html": "/test-landing/index.html",
-    "main.13594919.css.map": "/test-landing/static/css/main.13594919.css.map",
-    "main.1ab71e74.js.map": "/test-landing/static/js/main.1ab71e74.js.map",
+    "static/media/Chevron.svg": "/test-landing/static/media/Chevron.4e1f9c7ea9abfd2e075df334aafd604f.svg",
+    "main.454282a9.css.map": "/test-landing/static/css/main.454282a9.css.map",
+    "main.c0767149.js.map": "/test-landing/static/js/main.c0767149.js.map",
     "787.5daf3e46.chunk.js.map": "/test-landing/static/js/787.5daf3e46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13594919.css",
-    "static/js/main.1ab71e74.js"
+    "static/css/main.454282a9.css",
+    "static/js/main.c0767149.js"
   ]
 }
