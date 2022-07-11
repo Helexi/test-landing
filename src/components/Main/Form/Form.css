@@ -1,0 +1,124 @@
+.form__h3 {
+  padding-top: 40px;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+}
+
+.form__title {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 175%;
+  text-align: center;
+  color: #111111;
+}
+
+.form-container {
+  margin-top: 100px;
+  background-color: #DAECFF;
+}
+
+.form-wrap {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 20px 0 20px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.form__group {
+  width: 100%;
+}
+
+.form-control {
+  box-sizing: border-box;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #67AEFC;
+  border-radius: 10px;
+  height: 58px;
+  text-indent: 15px;
+}
+
+.form-control:focus {
+  border: 2px solid #67AEFC;
+}
+
+.form__img-phoneCall {
+  margin: 40px 0 40px 0;
+}
+
+.form-img-phone {
+  display: none;
+}
+
+.form-img-call {
+  display: none;
+}
+
+.text-danger {
+  color: red;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .form-wrap {
+    display: grid;
+    grid-template-areas: 
+    'phone form form form call'
+  }
+
+  .form__img-phoneCall {
+    display: none;
+  }
+
+  .form-img-phone {
+    grid-area: phone;
+    display: block;
+    width: 100%;
+  }
+  
+  .form-img-call {
+    grid-area: call;
+    display: block;
+    width: 100%;
+  }
+
+  .form {
+    grid-area: form;
+    width: 500px;
+  } 
+
+  .form-img-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-container {
+    padding-bottom: 128px;
+    box-sizing: border-box;
+    margin-top: 0;
+  }
+
+  .form__button {
+    width: 270px;
+  }
+  
+}

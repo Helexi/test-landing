@@ -1,0 +1,62 @@
+.slider-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+  min-height: 450px;
+  border: 2px solid #67AEFC;
+  border-radius: 15px;
+  padding: 30px 0 30px 0;
+  margin: 25px 0 45px 0;
+}
+
+.slider-card__name {
+  padding: 0 30px 0 30px;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.slider-cadr-titile {
+  padding: 0 30px 0 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.slider-card__img {
+  margin: 0 auto;
+  height: inherit;
+  width: 80%;
+}
+
+@media (min-width: 660px) {
+  .slider-card {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    min-height: 380px;
+    border: 2px solid #67AEFC;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .slider-card__img {
+    margin: 0 auto;
+    height: fit-content;
+    width: 80%;
+  }
+
+  .slider-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .slider-card__name {
+    margin-bottom: 20px;
+  }
+}

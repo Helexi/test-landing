@@ -25,3 +25,13 @@
   box-sizing: border-box;
   padding: 0 20px;
 }
+
+@media (min-width: 640px) {
+  .main__h2 {
+    padding-top: 100px;
+  }
+
+  .acardeon-wrap {
+    padding-top: 40px;
+  }
+}

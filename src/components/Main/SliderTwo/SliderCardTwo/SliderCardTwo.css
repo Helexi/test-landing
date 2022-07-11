@@ -1,0 +1,82 @@
+.slider-card-two__img {
+  margin: 0 auto;
+  height: inherit;
+  width: 100%;
+}
+
+.slider-card-two1,
+.slider-card-two2,
+.slider-card-two3,
+.slider-card-two4,
+.slider-card-two5,
+.slider-card-two6 {
+  position: relative;
+  z-index: 1;
+}
+
+.slider-card-two1:hover::after,
+.slider-card-two2:hover::after,
+.slider-card-two3:hover::after,
+.slider-card-two4:hover::after,
+.slider-card-two5:hover::after,
+.slider-card-two6:hover::after {
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  position: absolute;
+  display: block;
+  content: '';
+  background-color: #67AEFC;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+.slider-card-two1:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для оптовых покупок';
+}
+
+.slider-card-two2:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для флористов';
+}
+
+.slider-card-two3:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для парикмахеров';
+}
+
+.slider-card-two4:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для визажистов';
+}
+
+.slider-card-two5:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для кондитеров';
+}
+
+.slider-card-two6:hover::after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Онлайн-магазин для художников';
+}

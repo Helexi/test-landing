@@ -46,7 +46,7 @@
   background-size: 100%;
   flex-direction: column;
   justify-content: space-between;
-  background-position-x: -100px;
+  background-position-x: 0;
 }
 
 .header-title__h1 {
@@ -141,7 +141,7 @@
     background-image: url('./img/buckground-size-max.jpg');
     justify-content: normal;
     background-size: 150%;
-    background-position-x: -300px;
+    background-position-x: -200px;
     background-position-y: 30px;
     height: auto;
   }

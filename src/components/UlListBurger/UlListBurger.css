@@ -56,9 +56,10 @@ color: #FFFFFF;
   top: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   background-color: #67AEFC;
   transform: translateX(0%);
   transition: transform .3s;
+  z-index: 2;
 }

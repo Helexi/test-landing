@@ -1,0 +1,16 @@
+.slider-card-down__img {
+  position: relative;
+  margin: 0 auto;
+  height: inherit;
+  width: 100%;
+}
+
+.slider-card-down__img:hover {
+  position: relative;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}

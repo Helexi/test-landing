@@ -4,6 +4,7 @@ import './App.css';
 import { Header } from './components/Header/Header';
 import { UlListBurger } from './components/UlListBurger/UlListBurger';
 import { Main } from './components/Main/Main';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Header showBugreg={showBugreg}/>
       {show ? <UlListBurger show={show} close={close}/> : null}
       <Main />
+      <Footer />
     </>
   );
 }

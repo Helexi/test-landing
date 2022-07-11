@@ -1,13 +1,22 @@
-import React from "react";
+// import React, { useState } from "react";
 import { Acardeon } from "./Acardeon/Acardeon";
+import SliderUp from "./SliderUp/SliderUp";
+import SliderDown from "./SliderDown/SliderDown";
 import './Main.css';
+import useMediaQuery from "./useMediaQuery";
+import SliderTwo from "./SliderTwo/SliderTwo";
+import { Info } from "./Info/Info";
+import { Form } from "./Form/Form";
 
 export const Main = (props) => {
+  const matches = useMediaQuery("(min-width: 640px)");
   return (
     <div className="main-wrap">
       <div className="wrap-background-acardeon">
+        <h2 className="main__h2">
+          Что входит в услугу по созданию дизайна интернет-магазина?
+        </h2>
         <div className="acardeon-wrap">
-          <h2 className="main__h2">Что входит в услугу по созданию дизайна интернет-магазина?</h2>
           <Acardeon
             title='Дизайн портала — это оформление контента, 
           совокупность всех графических элементов на веб-странице. 
@@ -46,6 +55,10 @@ export const Main = (props) => {
           />
         </div>
       </div>
+      <SliderUp />
+      {matches ? <SliderTwo /> : <SliderDown />}
+      <Info />
+      <Form />
     </div>
   )
 }
