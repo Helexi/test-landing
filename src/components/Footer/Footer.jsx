@@ -64,5 +64,3 @@ export const Footer = () => {
     </div>
   )
 } 
-
-//hi
