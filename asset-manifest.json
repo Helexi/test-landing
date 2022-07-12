@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-landing/static/css/main.2c13c166.css",
-    "main.js": "/test-landing/static/js/main.49e567de.js",
+    "main.css": "/test-landing/static/css/main.a9c0728f.css",
+    "main.js": "/test-landing/static/js/main.1717921c.js",
     "static/js/787.5daf3e46.chunk.js": "/test-landing/static/js/787.5daf3e46.chunk.js",
     "static/media/4-step.svg": "/test-landing/static/media/4-step.ebb2b0b9c05d47aa254576aacc3d0c9f.svg",
     "static/media/3-step.svg": "/test-landing/static/media/3-step.d4599c5d8c14e9c88c7987eb997835a1.svg",
@@ -14,7 +14,7 @@
     "static/media/4-step.png": "/test-landing/static/media/4-step.c1c51281082d970cf787.png",
     "static/media/2-step.png": "/test-landing/static/media/2-step.af685c4d15bd1d281250.png",
     "static/media/6-step.png": "/test-landing/static/media/6-step.6b8401b83ea0f1a4a359.png",
-    "static/media/1-step.jpg": "/test-landing/static/media/1-step.e3ec54b9565cb767cd58.jpg",
+    "static/media/1-step.png": "/test-landing/static/media/1-step.dcdc390daf8f39a415b3.png",
     "static/media/3-step.png": "/test-landing/static/media/3-step.c7f974663099d0651b24.png",
     "static/media/Rectangle 1750.jpg": "/test-landing/static/media/Rectangle 1750.222253e7e3a3a0d2399f.jpg",
     "static/media/phone call.png": "/test-landing/static/media/phone call.49197abcbd8615390e3b.png",
@@ -33,12 +33,13 @@
     "static/media/slick.woff": "/test-landing/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/test-landing/index.html",
     "static/media/Chevron.svg": "/test-landing/static/media/Chevron.4e1f9c7ea9abfd2e075df334aafd604f.svg",
-    "main.2c13c166.css.map": "/test-landing/static/css/main.2c13c166.css.map",
-    "main.49e567de.js.map": "/test-landing/static/js/main.49e567de.js.map",
+    "static/media/close.svg": "/test-landing/static/media/close.2001e956d267bc9b1a23.svg",
+    "main.a9c0728f.css.map": "/test-landing/static/css/main.a9c0728f.css.map",
+    "main.1717921c.js.map": "/test-landing/static/js/main.1717921c.js.map",
     "787.5daf3e46.chunk.js.map": "/test-landing/static/js/787.5daf3e46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c13c166.css",
-    "static/js/main.49e567de.js"
+    "static/css/main.a9c0728f.css",
+    "static/js/main.1717921c.js"
   ]
 }
