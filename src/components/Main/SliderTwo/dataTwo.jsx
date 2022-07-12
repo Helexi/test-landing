@@ -1,4 +1,4 @@
-import Step1 from './imgTwo/1-step.jpg';
+import Step1 from './imgTwo/1-step.png';
 import Step2 from './imgTwo/2-step.png';
 import Step3 from './imgTwo/3-step.png';
 import Step4 from './imgTwo/4-step.png';

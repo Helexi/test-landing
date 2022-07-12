@@ -1,5 +1,4 @@
 .slider-buckground {
-  /* background-image: url('./imgDown/Rectangle\ 1750.jpg'); */
   background-position-x: -230px;
   background-position-y: -120px;
   background-size: cover; 
@@ -28,7 +27,6 @@
   height: 14px;
   width: 25px;
   background-color: #000;
-  /* mask-image: url("imgDown/Chevron.svg"); */
 }
 
 .sliderUp-wrap-button-buck-chevron {
@@ -36,7 +34,6 @@
   height: 14px;
   width: 25px;
   background-color: #000;
-  /* mask-image: url("imgDown/Chevron.svg"); */
 }
 
 .sliderUp-wrap-button-buck:hover, 

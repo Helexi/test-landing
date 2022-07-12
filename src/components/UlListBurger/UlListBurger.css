@@ -6,8 +6,7 @@
   font-size: 17px;
   line-height: 27px;
   text-transform: uppercase;
-
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .burger-actions-menu__link {
@@ -16,18 +15,26 @@ color: #FFFFFF;
 }
 
 .close {
-  font-size: 40px;
   cursor: pointer;
-  border: none;
   background-color: inherit;
   display: flex;
   margin: 0;
   padding: 0;
   width: fit-content;
-  top: 30px;
+  top: 40px;
   position: absolute;
   right: 20%;
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 30px;
+  mask-image: url("imgBurger/close.svg");
+  mask-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.close:hover {
+  transform: scale(-1.5, 1.5);
+  background-color: rgb(255, 0, 0);
 }
 
 .burger-actions-menu {

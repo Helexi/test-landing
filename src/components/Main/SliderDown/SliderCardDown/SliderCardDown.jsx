@@ -1,9 +1,10 @@
 import React from "react";
 import './SliderCardDown.css';
 
-export const SliderCardDown = ({ img }) => {
+export const SliderCardDown = ({ img, id }) => {
+  const className = 'slider-card-down';
   return (
-    <div className="slider-card-down">
+    <div className={className + id}>
       <img className="slider-card-down__img" src={img} alt="img" />
     </div>
   )

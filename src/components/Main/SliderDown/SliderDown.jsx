@@ -34,16 +34,16 @@ export default class PreviousNextMethodsDown extends Component {
           <Slider ref={c => (this.slider = c)} {...settings}>
             <div>
               <div className="sliderCardDown">
-                <SliderCardDown img={dataDown[0].image} />
-                <SliderCardDown img={dataDown[1].image} />
-                <SliderCardDown img={dataDown[2].image} />
+                <SliderCardDown img={dataDown[0].image} id={dataDown[0].id}/>
+                <SliderCardDown img={dataDown[1].image} id={dataDown[1].id}/>
+                <SliderCardDown img={dataDown[2].image} id={dataDown[2].id}/>
               </div>
             </div>
             <div>
               <div className="sliderCardDown">
-                <SliderCardDown img={dataDown[3].image} />
-                <SliderCardDown img={dataDown[4].image} />
-                <SliderCardDown img={dataDown[5].image} />
+                <SliderCardDown img={dataDown[3].image} id={dataDown[3].id}/>
+                <SliderCardDown img={dataDown[4].image} id={dataDown[4].id}/>
+                <SliderCardDown img={dataDown[5].image} id={dataDown[5].id}/>
               </div>
             </div>
           </Slider>

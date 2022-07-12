@@ -39,7 +39,7 @@
   height: 14px;
   width: 25px;
   background-color: #000;
-  mask-image: url("img/Chevron.svg");;
+  mask-image: url("img/Chevron.svg");
 }
 
 .sliderUp-wrap-button-buck:hover, 

@@ -9,11 +9,11 @@ export const Header = ({ showBugreg }) => {
       <div className="container">
         <div className="header__content">
           <div className="top-actions">
-            <a href="logo">
+            <a href="/">
               <img src={Frame} alt="logo" className='logo' />
             </a>
             <UlList />
-              <a href="link" className="top-actions-button">
+              <a href="/" className="top-actions-button">
                 Заказать
               </a>
             

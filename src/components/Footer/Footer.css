@@ -55,6 +55,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
+  height: 30px;
+}
+
+.mini-logo {
+  transition: all 1s;
+}
+
+.mini-logo:hover {
+  transform: scale(1.5);
 }
 
 .footer-content__contacts {
@@ -65,8 +74,29 @@
 }
 
 .footer-contacts-name {
+  cursor: pointer;
   align-items: center;
   display: flex;
+  transition: all 1s;
+}
+
+.footer-contacts-name:hover {
+  transform: scale(1.2);
+}
+
+.footer-contacts-malito:hover {
+  transform: scale(1.2);
+}
+
+.footer-contacts-malito {
+  height: fit-content;
+  transition: all 1s;
+}
+
+.footer-contacts-name-tel,
+.footer-contacts-malito {
+  color: white;
+  text-decoration: none;
 }
 
 .footer-content__email {
@@ -80,6 +110,7 @@
   display: flex;
   content: '';
   background-image: url('./imgFooter/viber.svg');
+  mask-image: url('./imgFooter/viber.svg');
   width: 26px;
   height: 26px;
 }
